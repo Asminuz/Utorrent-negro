@@ -3,15 +3,35 @@
     padding: 0;
 }
 
+body {
+    font-family: sans-serif;
+}
+
+.circulo1 {
+    top: 0;
+    position: absolute;
+    background-color: black;
+    background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje37l.jpg);
+    left: 50vw;
+    transform: translate(-50%);
+    width: 99vw;
+    height: 925px;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    z-index: 0;
+}
+
 header {
+    position: absolute;
     display: flex;
-    background-color: #2b2b2b;
+    background-color: transparent;
     margin: 1rem;
     padding: 1rem;
     width: 113.5rem;
     height: 4rem;
     padding: 1rem;
     justify-content: end;
+    z-index: 1;
 }
 
 nav ul {
@@ -31,16 +51,25 @@ nav ul li a {
     padding: 10px 25px;
     border: 2px solid transparent;
     border-radius: 20px;
-    background-color: #363636;
-    transition: background-color 0.3s;
+    background-color: transparent;
+    transition: background-color 0.4s;
 }
 
-#login {
-    background-color: aqua;
-    color: white;
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.384);
 }
 
 #logo {
-    margin-right: 72rem;
-    background-color: transparent;
+    margin-right: 70rem;
+}
+
+nav ul li a #login {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 10px 25px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: white;
+    transition: background-color 0.4s;
 }
