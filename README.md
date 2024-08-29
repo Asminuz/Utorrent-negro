@@ -1,2 +1,6 @@
 # Utorrent-negro
-Front-end de una pagina de juegos
+Front-end de una pagina de juegos basada en otra:
+## Ejemplo:
+...
+Y aquí un preview de mi trabajo:
+...
