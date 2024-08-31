@@ -46,12 +46,13 @@ body {
 }
 
 .principal-game {
+    overflow: visible;
     position: relative;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0KU1Ukwt_2_7qAu50xDqXIsqHFnwzs5gu4A&s);
+    background-image: url(https://static.wikia.nocookie.net/terraria/images/f/fc/Console_1.3.png/revision/latest?cb=20190903041935&path-prefix=es);
     left: 1260px;
     top: -50px;
-    width: 500px;
-    height: 660px;
+    width: 485px;
+    height: 600px;
     color: white;
     border-radius: 30px;
     z-index: 1;
