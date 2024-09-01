@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: scroll;
 }
 
 body {
@@ -34,21 +33,41 @@ body {
 }
 
 .search-bar {
-    font-size: 18px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 22px;
+    padding: 1.25rem;
     position: relative;
     background-color: white;
-    height: 3rem;
-    width: 660px;
+    height: 2rem;
+    width: 630px;
     left: 120px;
     top: 500px;
     border-radius: 50px;
     z-index: 1;
 }
 
+.btn {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 1rem;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .principal-game {
+    display: flex;
     overflow: visible;
     position: relative;
-    background-image: url(https://static.wikia.nocookie.net/terraria/images/f/fc/Console_1.3.png/revision/latest?cb=20190903041935&path-prefix=es);
+    background-size: cover;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOTg5NTcxZGUtODFiZC00NmMyLTgyMTMtM2I2YWFlNzFhZDQzXkEyXkFqcGc@._V1_.jpg);
     left: 1260px;
     top: -50px;
     width: 485px;
@@ -61,12 +80,56 @@ body {
 .precio1 {
     font-size: 24px;
     position: relative;
-    background-color: blueviolet;
+    background-color: rgb(15, 15, 15);
     width: max-content;
     height: min-content;
     padding: 1rem;
     border-radius: 20px;
-    left: 400px
+    left: 400px;
+}
+
+.descuento1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    position: relative;
+    right: 145px;
+    top: 85%;
+    background-color: rgb(12, 12, 12);
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.fast-bar {
+    position: absolute;
+    justify-content: center;
+    top: 975px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 2rem;
+    left: 18%;
+    z-index: 2;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.card:hover {
+    background-color: rgb(223, 223, 223);
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 header {
@@ -117,4 +180,8 @@ nav ul li a:hover {
 .logo {
     width: auto;
     height: 60px;
+}
+
+.logo:hover {
+    cursor: pointer;
 }
