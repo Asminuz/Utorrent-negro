@@ -139,7 +139,7 @@ header {
     padding: 1rem;
     width: 99vw;
     height: 4rem;
-    z-index: 2;
+    z-index: 4;
 }
 
 nav {
@@ -371,4 +371,100 @@ nav ul li a:hover {
     background-image: url(https://play-lh.googleusercontent.com/5sB5BIFjmvygnM12NAyeUngEMCYA5xJQl2zVTOqY6RdefP0bZS5YvGjjem2eUo2nliw=w240-h480);
     width: 312px;
     height: 312px;
+}
+
+.final-cards {
+    position: absolute;
+    display: flex;
+    top: 4136px;
+    left: 16rem;
+}
+
+.our-shop {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 600px;
+    border-radius: 25px;
+    padding: 10px;
+    z-index: 3;
+}
+
+.our-shop-text {
+    font-size: 28px;
+    position: relative;
+    top: 35px;
+}
+
+.btn3 {
+    position: relative;
+    font-size: 26px;
+    top: 64px;
+    width: max-content;
+    background-color: rgb(15, 15, 15);
+    color: white;
+    padding: 1rem;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn3:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.fimg {
+    position: relative;
+    right: 10rem;
+    bottom: 8rem;
+    background-color: rgb(31, 31, 31);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiukaI8eTxPVxyg0kvP2JTAFqxQhFatSGjFA&s);
+    background-size: cover;
+    width: 550px;
+    height: 600px;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.newsletter {
+    position: absolute;
+    left: 48rem;
+    top: 6rem;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 600px;
+    border-radius: 25px;
+    padding: 10px;
+    z-index: 3;
+}
+
+.newsletter-text {
+    font-size: 28px;
+    position: relative;
+}
+
+.btn4 {
+    position: relative;
+    font-size: 26px;
+    width: max-content;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn4:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.search-bar2 {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    bottom: 1rem;
+    padding: 1rem;
+    border-radius: 45px;
 }
