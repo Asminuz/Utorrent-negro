@@ -572,3 +572,104 @@ footer {
     border-top-right-radius: 50px;
     z-index: 2;
 }
+
+.game {
+    position: absolute;
+    width: 660px;
+    height: 764px;
+    top: 720px;
+    left: 10rem;
+    border-radius: 25px;
+    background-size: cover;
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOTg5NTcxZGUtODFiZC00NmMyLTgyMTMtM2I2YWFlNzFhZDQzXkEyXkFqcGc@._V1_.jpg);
+    z-index: 1;
+}
+
+.game-text {
+    position: absolute;
+    font-size: 28px;
+    width: 720px;
+    top: 780px;
+    left: 56rem;
+    z-index: 1;
+}
+
+.price {
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.buy {
+    position: relative;
+    top: 100px;
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.amount {
+    background-color: white;
+    width: 64px;
+    color: black;
+    font-size: 24px;
+    border-radius: 25px;
+    border: 3px solid black;
+}
+
+.amount:hover {
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.tags {
+    position: relative;
+    font-size: 22px;
+    top: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grey {
+    color: grey;
+}
+
+.description {
+    font-size: 24px;
+    position: absolute;
+    top: 1664px;
+    left: 10rem;
+    width: 90rem;
+}
+
+.related-games {
+    position: absolute;
+    top: 2048px;
+    left: 3rem;
+    font-size: 26px;
+}
+
+.related-bar {
+    position: relative;
+    justify-content: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+    margin: 2rem;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.footer3 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 2960px;
+    display: flex;
+    color: white;
+    background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje37l.jpg);
+    padding: 3rem;
+    width: 94.5vw;
+    height: 8rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    z-index: 2;
+}
