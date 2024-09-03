@@ -118,11 +118,12 @@ body {
 .card {
     background-color: white;
     padding: 25px;
-    border-radius: 25px;
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: 0.3s;
+    border: 3px solid black;
     z-index: 2;
 }
 
@@ -479,6 +480,88 @@ footer {
     justify-content: center;
     align-items: center;
     top: 4980px;
+    display: flex;
+    color: white;
+    background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje37l.jpg);
+    padding: 3rem;
+    width: 94.5vw;
+    height: 8rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    z-index: 2;
+}
+
+.s-panel {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    background-color: black;
+    color: white;
+    background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje37l.jpg);
+    left: 50vw;
+    transform: translate(-50%);
+    width: 100vw;
+    height: 545px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    z-index: 0;
+}
+
+.categories2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 720px;
+    width: 1850px;
+}
+
+.categories-btn {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    width: max-content;
+    z-index: 2;
+}
+
+.categories-cards {
+    position: relative;
+    justify-content: center;
+    top: 4rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    width: max-content;
+    z-index: 2;
+}
+
+.pages {
+    position: relative;
+    justify-content: center;
+    top: 8rem;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    width: max-content;
+    z-index: 2;
+}
+
+.footer2 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 2534px;
     display: flex;
     color: white;
     background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yje37l.jpg);
