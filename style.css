@@ -1,10 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
+.rubik-font {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 18px;
+    font-style: normal;
 }
 
-body {
-    font-family: sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 .panel {
@@ -33,20 +36,41 @@ body {
 }
 
 .search-bar {
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     align-items: center;
-    justify-content: end;
     font-size: 22px;
-    padding: 1.25rem;
     position: relative;
-    background-color: white;
+    background-color: transparent;
     height: 2rem;
-    width: 630px;
+    width: 800px;
     left: 120px;
     top: 500px;
-    border-radius: 50px;
     z-index: 1;
+}
+
+.bar {
+    font-size: 22px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 1rem;
+    width: 42rem;
+}
+
+.btn-search {
+    position: relative;
+    right: 12rem;
+    background-color: rgb(15, 15, 15);
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn-search:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn {
@@ -59,7 +83,7 @@ body {
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .principal-game {
@@ -130,7 +154,7 @@ body {
 .card:hover {
     background-color: rgb(223, 223, 223);
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 header {
@@ -165,7 +189,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -221,7 +245,7 @@ nav ul li a:hover {
 .card2:hover {
     background-color: rgb(223, 223, 223);
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .game-img {
@@ -282,7 +306,7 @@ nav ul li a:hover {
 
 .btn2:hover {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .top-games {
@@ -320,7 +344,7 @@ nav ul li a:hover {
 .card3:hover {
     background-color: rgb(223, 223, 223);
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .game-img2 {
@@ -366,7 +390,7 @@ nav ul li a:hover {
 
 .card4:hover {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .game-img3 {
@@ -416,7 +440,7 @@ nav ul li a:hover {
 
 .btn3:hover {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .fimg {
@@ -451,7 +475,9 @@ nav ul li a:hover {
 
 .btn4 {
     position: relative;
-    font-size: 26px;
+    top: 0.6rem;
+    right: 13rem;
+    font-size: 20px;
     width: max-content;
     background-color: white;
     color: black;
@@ -462,17 +488,24 @@ nav ul li a:hover {
 
 .btn4:hover {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search-bar2 {
     position: relative;
     display: flex;
-    justify-content: end;
-    background-color: black;
+    background-color: transparent;
     bottom: 1rem;
+    width: 46.8rem;
+}
+
+.bar2 {
+    font-size: 20px;
+    background-color: black;
     padding: 1rem;
-    border-radius: 45px;
+    color: white;
+    border-radius: 50px;
+    width: 38rem;
 }
 
 footer {
@@ -756,4 +789,234 @@ iframe {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     z-index: 2;
+}
+
+#mc {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Homepage_Discover-our-games_MC-Vanilla-KeyArt_864x864.jpg);
+    width: 360px;
+    height: 224px;
+}
+
+#mc2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Homepage_Discover-our-games_MC-Vanilla-KeyArt_864x864.jpg);
+    width: 216px;
+    height: 216px;
+}
+
+#mc3 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Homepage_Discover-our-games_MC-Vanilla-KeyArt_864x864.jpg);
+    width: 312px;
+    height: 312px;
+}
+
+#terraria  {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000001702/dac3a26570b5ca1ddf703bf0add7cc7c527f71a2b56521baf69e20c7a573c610);
+    width: 360px;
+    height: 224px;
+}
+
+#doom {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/capsule_616x353.jpg?t=1692892793);
+    width: 360px;
+    height: 224px;
+}
+
+#stki {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000056962/11a2b9a0c6c126296b1fdb489035b2bba42ce845ed1c7e910d12ee016053ce01);
+    width: 360px;
+    height: 224px;
+}
+
+#doomel {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://images.ctfassets.net/rporu91m20dc/48FOwmEHJwz03qpd42nzwr/4f08db516cdcd51dc44d3c0474484b3b/doom_eternal_bg_date_m_w_launch.jpg?q=70);
+    width: 216px;
+    height: 216px;
+}
+
+#doomel2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70070000011025/09fde58766118f7aec9f6ff30f3a8d6e7ba37ace336e79097643431c911d99c1);
+    width: 360px;
+    height: 224px;
+}
+
+#uk {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://i.scdn.co/image/ab67616d0000b27357aacd72d8f523ddab7b5e48);
+    width: 312px;
+    height: 312px;
+}
+
+#uk2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1229490/capsule_616x353.jpg?t=1704406135);
+    width: 360px;
+    height: 224px;
+}
+
+#stv {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/f/fd/Logo_of_Stardew_Valley.png);
+    width: 216px;
+    height: 216px;
+}
+
+#stv2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/capsule_616x353.jpg?t=1711128146);
+    width: 360px;
+    height: 224px;
+}
+
+#sof {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/3/3d/Sons_of_the_Forest.jpg);
+    width: 216px;
+    height: 216px;
+}
+
+#gtavi {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/12/gta-vi-3244512.jpg?tf=3840x);
+    width: 216px;
+    height: 216px;
+}
+
+#gtav {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202203/0911/VIB0SeEj9vT6DTv7P4thJLZi.jpg?w=440);
+    width: 360px;
+    height: 224px;
+}
+
+#jsab {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003653/e5cad4cafbd813b89817c25926c1690760a789e206776d70ae601af53b12582e);
+    width: 216px;
+    height: 216px;
+}
+
+#tf {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202009/3001/AlYV7v5B6nny9nxu10jrV2r5.png);
+    width: 312px;
+    height: 312px;
+}
+
+#tf2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/capsule_616x353.jpg?t=1699381053);
+    width: 360px;
+    height: 224px;
+}
+
+#dr {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://static-cdn.jtvnw.net/ttv-boxart/965771331_IGDB-272x380.jpg);
+    width: 312px;
+    height: 312px;
+}
+
+#pvz {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://play-lh.googleusercontent.com/hO7716hh7NCcFauJedDclX-R3Zh9JmbSs8AUU6TP2edGVILlZM7gmyt_8WPCZELiPQA=w240-h480-rw);
+    width: 312px;
+    height: 312px;
+}
+
+#pvz2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://mlnqve2prdhr.i.optimole.com/w:206/h:137/q:mauto/f:best/https://juegos.games/storage/2022/09/plants-vs-zombies.jpg);
+    width: 360px;
+    height: 224px;
+}
+
+#ut {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://i.kickstarter.com/assets/011/533/904/f58978f175eba8065d1b5afe4545876d_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&width=1024&sig=HmN9N%2FgGVR2Z9Tu07cEJUUpLCIsUTCimBfxhNcWm%2BHk%3D);
+    width: 360px;
+    height: 224px;
+}
+
+#ts {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1440510/capsule_616x353.jpg?t=1641980606);
+    width: 360px;
+    height: 224px;
 }
