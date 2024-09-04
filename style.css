@@ -616,7 +616,6 @@ footer {
 }
 
 .amount:hover {
-    cursor: pointer;
     border: 5px solid black;
 }
 
