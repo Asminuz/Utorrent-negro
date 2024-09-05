@@ -54,12 +54,13 @@
     background-color: white;
     border-radius: 50px;
     padding: 1rem;
-    width: 40rem;
+    width: 38rem;
 }
 
 .btn-search {
     position: relative;
-    right: 10rem;
+    width: 12rem;
+    right: 13rem;
     background-color: rgb(15, 15, 15);
     font-size: 1rem;
     color: white;
@@ -475,10 +476,11 @@ nav ul li a:hover {
 
 .btn4 {
     position: relative;
-    top: 0.6rem;
-    right: 13rem;
+    bottom: 3.1rem;
+    width: 12rem;
+    left: 20rem;
     font-size: 20px;
-    width: max-content;
+    width: rem;
     background-color: white;
     color: black;
     padding: 0.5rem;
@@ -493,10 +495,10 @@ nav ul li a:hover {
 
 .search-bar2 {
     position: relative;
-    display: flex;
+    display: inline;
     background-color: transparent;
     bottom: 1rem;
-    width: 46.8rem;
+    width: auto;
 }
 
 .bar2 {
@@ -505,7 +507,7 @@ nav ul li a:hover {
     padding: 1rem;
     color: white;
     border-radius: 50px;
-    width: 38rem;
+    width: 30rem;
 }
 
 footer {
