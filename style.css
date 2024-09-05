@@ -841,6 +841,16 @@ iframe {
     height: 224px;
 }
 
+#doom2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202009/2814/GGyEnCkIXoyiVlN9sRHkzUPo.png);
+    width: 312px;
+    height: 312px;
+}
+
 #stki {
     position: relative;
     border-radius: 25px;
@@ -921,6 +931,16 @@ iframe {
     height: 216px;
 }
 
+#sof2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    width: 312px;
+    height: 312px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/3/3d/Sons_of_the_Forest.jpg);
+}
+
 #gtavi {
     position: relative;
     border-radius: 25px;
@@ -939,6 +959,16 @@ iframe {
     background-image: url(https://image.api.playstation.com/vulcan/ap/rnd/202203/0911/VIB0SeEj9vT6DTv7P4thJLZi.jpg?w=440);
     width: 360px;
     height: 224px;
+}
+
+#gtav2 {
+    position: relative;
+    border-radius: 25px;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(https://image.api.playstation.com/cdn/UP1004/CUSA00419_00/bTNSe7ok8eFVGeQByA5qSzBQoKAAY32R.png?w=440);
+    width: 312px;
+    height: 312px;
 }
 
 #jsab {
